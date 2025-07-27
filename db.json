@@ -1,0 +1,25 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Doom",
+      "descricao": " Jogo de tiro em primeira pessoa",
+      "foto": "jogo1.PNG",
+      "preco": 100
+    },
+    {
+      "id": 3,
+      "produto": "Jogo 3",
+      "descricao": "Descrição do Jogo 3",
+      "foto": "jogo3.PNG",
+      "preco": 5000
+    },
+    {
+      "produto": "Couter Strike",
+      "descricao": "Jogo eletrônico multijogador de tiro em primeira pessoa, no qual times de terroristas e contra-terroristas batalham entre si, respectivamente,",
+      "foto": "jogo2.png",
+      "preco": 1200,
+      "id": 4
+    }
+  ]
+}
