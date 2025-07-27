@@ -267,13 +267,48 @@ A API fornece os seguintes endpoints para gerenciamento de produtos:
 ## 📱 Screenshots
 
 ### 🏠 Painel Principal
-*Listagem completa de produtos com ações disponíveis*
+*Listagem completa de produtos com funcionalidades de edição e exclusão*
+
+![Painel Principal](screenshots/painel-principal.png)
+
+A tela principal exibe uma tabela organizada com todos os produtos cadastrados, mostrando:
+- **ID do produto**: Identificador único
+- **Imagem**: Thumbnail do jogo
+- **Nome do produto**: Título do jogo
+- **Descrição**: Detalhes sobre o produto
+- **Preço**: Valor formatado em reais
+- **Ações**: Botões para editar (azul) e excluir (vermelho) cada produto
 
 ### ➕ Cadastro de Produto
-*Formulário intuitivo para gerenciamento de produtos*
+*Formulário intuitivo e responsivo para gerenciamento de produtos*
+
+![Cadastro de Produto](screenshots/cadastro-produto.png)
+
+O formulário de cadastro oferece:
+- **Nome do Produto**: Campo de texto para o título
+- **Descrição**: Área de texto expandida para detalhes
+- **Foto**: Campo para nome do arquivo de imagem
+- **Preço**: Campo numérico para valor
+- **Botões de ação**: Cadastrar (verde) e Cancelar (cinza)
 
 ### 🔧 API em Funcionamento
-*JSON-Server fornecendo dados em tempo real*
+*JSON-Server fornecendo dados em tempo real via REST API*
+
+![API JSON Server](screenshots/api-json-server.png)
+
+A API REST retorna dados estruturados em JSON contendo:
+- **Produtos cadastrados**: Array com todos os jogos
+- **Estrutura de dados**: ID, produto, descrição, foto e preço
+- **Endpoints funcionais**: Acessível em `http://localhost:3000/produtos`
+- **Dados em tempo real**: Sincronização automática com a interface
+
+### 🎮 Produtos em Destaque
+
+O sistema já vem com produtos pré-cadastrados para demonstração:
+
+1. **Doom** - Jogo de tiro em primeira pessoa clássico
+2. **Jogo 3** - Produto de demonstração
+3. **Counter Strike** - FPS multiplayer competitivo
 
 ---
 
@@ -341,7 +376,6 @@ ng build --prod
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-
 
 <div align="center">
   <h3>⭐ Se este projeto te ajudou, deixe uma estrela!</h3>
