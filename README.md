@@ -334,19 +334,6 @@ Os relatórios de cobertura são gerados na pasta `coverage/`
 ng build --prod
 ```
 
-### Deploy Automático
-Configure deploy automático com GitHub Actions, Netlify ou Vercel.
-
----
-
-## 📞 Suporte
-
-Se você tiver alguma dúvida ou problema:
-
-- 📧 **Email**: seu-email@exemplo.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/seu-usuario/loja-jogos/issues)
-- 💬 **Discussões**: [GitHub Discussions](https://github.com/seu-usuario/loja-jogos/discussions)
-
 ---
 
 ## 📄 Licença
@@ -355,14 +342,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-## 👨‍💻 Autor
-
-**Seu Nome**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- Email: seu-email@exemplo.com
-
----
 
 <div align="center">
   <h3>⭐ Se este projeto te ajudou, deixe uma estrela!</h3>
